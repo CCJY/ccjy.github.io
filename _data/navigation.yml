@@ -1,9 +1,9 @@
 main:
-  - title: About
-    url: /_pages/about/
   - title: Posts
     url: /_pages/post/
- - title: Tags
+  - title: About
+    url: /_pages/about/
+  - title: Tags
     url: /_pages/tags/
   - title: Collection
     url: /_pages/collection/
