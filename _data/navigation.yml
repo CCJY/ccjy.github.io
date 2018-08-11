@@ -5,6 +5,13 @@ main:
     url: /posts/
   - title: "Docs"
     url: /collection/
+    children:
+      - title: "Mathematics"
+        url: /mathematics/
+      - title: "Deep learning"
+        url: /deeplearning/
+      - title: "C++ programming"
+        url: /cplusplus/
   - title: "Tag"
     url: /tags/
   - title: "Category"
