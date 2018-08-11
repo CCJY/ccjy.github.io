@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Developer Junyoung's Site"
+title                    : "Developer Jun's Site"
 title_separator          : "-"
 name                     : "Junyoung"
 description              : "An amazing website."
