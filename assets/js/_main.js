@@ -21,6 +21,15 @@ $(document).ready(function() {
     }
   }, 250);
 
+  $(window).scroll(function(){
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+
+        $(".myBtn").css("display", "block") ;
+    } else {
+        $(".myBtn").css("display", "none"); 
+    }
+  });
+
   // FitVids init
   $("#main").fitVids();
 
@@ -43,6 +52,12 @@ $(document).ready(function() {
 
   $(window).resize(function() {
     stickySideBar();
+  });
+
+  $(".myBtn").on("click",function(){
+    console.log("log");
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   });
 
   // Follow menu drop down
@@ -104,3 +119,4 @@ $(document).ready(function() {
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 });
+ 

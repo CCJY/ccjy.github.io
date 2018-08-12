@@ -1,0 +1,53 @@
+- slug: c language
+  name: c language
+
+- slug: c++ language
+  name: c++ language
+
+- slug: c# language
+  name: c# language
+
+- slug: database
+  name: database
+
+- slug: php
+  name: php
+
+- slug: tcp/ip sockets
+  name: tcp/ip sockets
+
+- slug: multithreaded and parallel programming
+  name: multithreaded and parallel programming
+
+- slug: winform
+  name: winform
+
+- slug: boost library
+  name: boost library
+
+- slug: boost asio
+  name: boost asio
+
+- slug: scalable distributed game server
+  name: scalable distributed game server
+
+- slug: windows
+  name: windows
+
+- slug: linux
+  name: linux
+
+- slug: design pattern
+  name: design pattern
+
+- slug: inter-process communication
+  name: inter-process communication
+
+- slug: logging system
+  name: logging system
+
+- slug: mpl
+  name: mpl
+
+- slug: bugtrap
+  name: bugtrap

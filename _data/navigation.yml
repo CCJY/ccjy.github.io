@@ -1,6 +1,6 @@
 main:
   - title: "About"
-    url: /about/
+    url: /docs/about/
   - title: "Posts"
     url: /posts/
   - title: "Docs"
@@ -24,4 +24,7 @@ docs:
     children:
       - title: "Quick-Start Guide"
         url: /docs/Document First/
+
+empty:
+  
      

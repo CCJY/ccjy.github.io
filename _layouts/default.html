@@ -28,8 +28,9 @@
         {% include search/search_form.html %}
       </div>
     {% endif %}
-    
 
+    <a class="myBtn"> <i class="fas fa-arrow-alt-circle-up"></i></a>
+    
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
@@ -38,6 +39,7 @@
     </div>
 
     {% include scripts.html %}
+    <script id="dsq-count-scr" src="//{{ site.comments.disqus.shortname }}.disqus.com/count.js" async></script>
     
   </body>
 </html>
