@@ -1,9 +1,9 @@
 main:
-  - title: "About"
+  - title: "ABOUT"
     url: /docs/about/
-  - title: "Posts"
+  - title: "POSTS"
     url: /posts/
-  - title: "Docs"
+  - title: "DOCS"
     url: /collection/
     children:
       - title: "Mathematics"
@@ -12,11 +12,11 @@ main:
         url: /deeplearning/
       - title: "C++ programming"
         url: /cplusplus/
-  - title: "Tag"
+  - title: "TAG"
     url: /tags/
-  - title: "Category"
+  - title: "CATEGORY"
     url: /categories/
-  - title: "Portfolio"
+  - title: "PROJECTS"
     url: /portfolio/
   
 docs:
