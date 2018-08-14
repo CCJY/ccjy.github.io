@@ -1,17 +1,10 @@
 main:
   - title: "ABOUT"
-    url: /docs/about/
+    url: /about/
   - title: "POSTS"
     url: /posts/
   - title: "DOCS"
     url: /collection/
-    children:
-      - title: "Mathematics"
-        url: /mathematics/
-      - title: "Deep learning"
-        url: /deeplearning/
-      - title: "C++ programming"
-        url: /cplusplus/
   - title: "TAG"
     url: /tags/
   - title: "CATEGORY"
@@ -24,6 +17,14 @@ docs:
     children:
       - title: "Quick-Start Guide"
         url: /docs/Document First/
+
+algebra2:
+  - title: series and sequences
+    children:
+      - title: "Finite arithmetic series"
+        url: /algebra2/Finite arithmetic series/
+      - title: "Geometric sequence"
+        url: /algebra2/Geometric_sequences/
 
 empty:
   

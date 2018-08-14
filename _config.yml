@@ -263,6 +263,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  algebra2:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -303,4 +306,6 @@ defaults:
       layout: single
       author_profile: false
       share: true
+ 
+
  
