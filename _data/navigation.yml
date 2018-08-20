@@ -25,7 +25,28 @@ algebra2:
         url: /algebra2/Finite arithmetic series/
       - title: "Geometric sequence"
         url: /algebra2/Geometric_sequences/
+      - title: "Geometric_series"
+        url: /algebra2/Geometric_series/
+  - title: conic sections
+    children:
+      - title: "Equation of a parabola from focus & directrix"
+        url: /algebra2/Equation of a parabola from focus & directrix/
+      - title: "Modeling with one-variable equations and inequalities"
+        url: /algebra2/Modeling with one-variable equations and inequalities/
+      - title: "The standard equation of a circle"
+        url: /algebra2/The standard equation of a circle/
+      
+algorithms:
+  - title: algorithms 
+    children:
+      - title: "Intro"
+        url: /algorithms/Intro/
 
+linear_algebra:
+  - title: linear_algebra
+    children: 
+      - title: "Vector"
+        url: /linear_algebra/Vector/
 empty:
   
      

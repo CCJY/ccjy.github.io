@@ -7,3 +7,21 @@ collection: first doc
 ---
 
 Hello
+
+<canvas id="myChart" width="400" height="400"></canvas>
+
+
+{% mermaid %}
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+{% endmermaid %}
+
+~~~javascript
+function syntaxHighlight(code) {
+   var foo = 'Hello World';
+   var bar = 100;
+}
+~~~

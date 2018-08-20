@@ -32,46 +32,45 @@ $$
 \sum_{i=0}^{50} \pi i^2 =\pi 0^2 + \pi 1^2 + \pi 2^2+... + \pi 49^2+\pi 50^2 
 $$
 
-
 ## Arithmetic series
 $$
-\begin{align*}
+\begin{aligned}
 \left\{1,2,3,....,n\right\} \\
 s_n &= 1+2+3+...+ n \\
 s_n &= n + (n-1) + (n-2) + ... + 1 \\
 s_n+s_n &= 2s_n = (n+1)+(n+1) + (n+1)+...+(n+1) \\
-s_n &=\frac{n(n+1)}{2}
-\end{align*}
+s_n &=\frac{n(n+1)}{2}\\
+\end{aligned}
 $$
- 
 ## arithmetic sequence
+
 $$
  \left\{a, a+d, a+2d, ..., a+(n-1)d \right\}
 $$
 
 ## arithmetic series formula
 $$
-\begin{align*}
+\begin{aligned}
 s_n &= a+a+d + a+2d +.. +a+(n-1)d \\
 s_n &=a+n(-1)d+a+(n-2)d + a+(n-3)d+ ... +a  \\
 2s_n &= 2a+(n-1)d + 2a+(n-1)d + 2a+(n-1)d +...+ 2a+ (n-1)d \\
 2s_n &= n(2a + (n-1)d) \\
 s_n &= \frac{n(2a+(n-1)d)}{2} \\
 s_n &= n* (\frac{ a+a+(n-1)d }{2})
-\end{align*}
+\end{aligned}
 $$
 
 ### the sum of an arithmetic series
 $$
-\begin{align*}
+\begin{aligned}
 s_n= \frac{(a_1+a_n)}{2}*n
-\end{align*}
+\end{aligned}
 $$
 
 
 ### Find the value of n for this series and Find the sum
 $$
-\begin{align*}
+\begin{aligned}
 3+5+7+..+401= \\
 n &= \frac{(401-3)}{2}+1 \\
 n &=200 \\
@@ -81,14 +80,14 @@ n &=200 \\
 n &= \frac{(4042-11)}{9}+1 \\
 n &=450 \\
 \frac{4052+11}{9}*n &= 914175 \\
-\end{align*}
+\end{aligned}
 $$
 
 ## Work Example
 
 ### base
  $$
-\begin{align*}
+\begin{aligned}
 \sum_{k=1}^{550}(2k+50) &= 2(1)+50+ 2(2)+50 + ... + 2(550)+50 \\
 \\
 s_{550} &= 52 + 54 + 56 + ...+ 1150 \\
@@ -96,7 +95,7 @@ s_{550} &= 1150 + 1148+ 1146 +...+ 52 \\
 2s_{550} &= 1202 + 1202 +...+ 1202 = 1202 * 550 \\
 s_{550} &= \frac{1202*550 }{2} \\
 s_{550} &= \frac{52 + 1150}{2}*550
-\end{align*}
+\end{aligned}
 $$
 
 ### sum expression
@@ -108,14 +107,14 @@ $$
 **Find the value of n for this series**
 
 $$
-\begin{align*}
+\begin{aligned}
 n &= \frac{2044-(-50)}{6}+1 \\
 n &= 350 \\
 s_{350} &= \frac{-50+2044}{2}*350 \\
 s_{350} &= 348,950 \\
 Sum expression \\
 & \sum_{k=1}^{350} (6(k-1)-50)
-\end{align*}
+\end{aligned}
 $$
 
 
@@ -123,10 +122,10 @@ $$
 ### Recursive formula
 
 $$
-\begin{align*}
+\begin{aligned}
 a_i &= a_i-1 + 11 \\
 a_1 &= 4 \\
-\end{align*}
+\end{aligned}
 $$
 **Find sum of first 650 terms of sequence!**
 $$
@@ -134,11 +133,11 @@ $$
 $$
 
 $$
-\begin{align*}
+\begin{aligned}
 4+11(650-1) &=  7143 \\
 \\
 s_{650} &= \frac{ 4+7143 }{2} * 650 = 2,322,775 \\
-\end{align*}
+\end{aligned}
 $$
 
 
