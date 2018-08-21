@@ -11,6 +11,13 @@ Hello
 <canvas id="myChart" width="400" height="400"></canvas>
 
    
+{% mermaid %}
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+{% endmermaid %}
  
 
 ~~~javascript
