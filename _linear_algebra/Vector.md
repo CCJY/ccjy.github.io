@@ -23,8 +23,8 @@ sidebar:
 \texttt{2-dimensional real coordinate space}
 \end{aligned}
 $$
-### 2D(dismensional) real coordinate -> all possible real-valued 2-tuple
-#### Notation
+## 2D(dismensional) real coordinate -> all possible real-valued 2-tuple
+### Notation
 $$ \mathbf{R}^2 $$
 >$$
 \begin{aligned}
@@ -34,8 +34,8 @@ $$ \mathbf{R}^2 $$
 \end{bmatrix} 
 \end{aligned}
 $$
-### 3D(dismensional) real coordinate space -> real-valued 3-tuples 
-#### Notation
+## 3D(dismensional) real coordinate space -> real-valued 3-tuples 
+### Notation
 $$ \mathbf{R}^3 $$
 >$$
 \begin{aligned}
@@ -50,7 +50,7 @@ $$ \mathbf{R}^3 $$
 \vec{x} &\in \mathbf{R}^3 \\
 \end{aligned}
 $$
-### Not real valued tuple because of i
+## Not real valued tuple because of i
 >$$ 
 \begin{aligned}
 \vec{c} =
