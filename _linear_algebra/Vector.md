@@ -12,6 +12,7 @@ sidebar:
 
 ### vector - magnitude and direction
 
+{% youtube br7tS1t2SFE %}
 ---
 
 >$$ 
@@ -22,7 +23,9 @@ sidebar:
 \texttt{2-dimensional real coordinate space}
 \end{aligned}
 $$
-### $\mathbf{R}^2$- 2-dismensional real coordinate -> all possible real-valued 2-tuple
+### 2D(dismensional) real coordinate -> all possible real-valued 2-tuple
+#### Notation
+$$ \mathbf{R}^2 $$
 >$$
 \begin{aligned}
 \vec{v} &= (5,0) = 
@@ -31,10 +34,12 @@ $$
 \end{bmatrix} 
 \end{aligned}
 $$
-### $ \mathbf{R}^3 $- 3D real coordinate space -> real-valued 3-tuples 
+### 3D(dismensional) real coordinate space -> real-valued 3-tuples 
+#### Notation
+$$ \mathbf{R}^3 $$
 >$$
 \begin{aligned}
-\vec{x} =
+\vec{x} &=
 \begin{bmatrix}
 -1 \\
 5 \\
@@ -42,7 +47,7 @@ $$
 \end{bmatrix}
 \\
 \\
-\vec{x} \in \mathbf{R}^3 \\
+\vec{x} &\in \mathbf{R}^3 \\
 \end{aligned}
 $$
 ### Not real valued tuple because of i
@@ -56,6 +61,3 @@ i \\
 \end{bmatrix}
 \end{aligned}
 $$
-
----
-{% youtube br7tS1t2SFE %}
