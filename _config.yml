@@ -208,7 +208,6 @@ plugins:
   - jekyll-feed
   - jekyll-mermaid
   - jemoji
-  - youtube
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -218,7 +217,6 @@ whitelist:
   - jekyll-feed
   - jekyll-mermaid
   - jemoji
-  - youtube
 
 
 # Archives
