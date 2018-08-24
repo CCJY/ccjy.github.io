@@ -1,5 +1,9 @@
 <script>
-var ctx = document.getElementById("myChart").getContext('2d');
+   if (typeof G_vmlCanvasManager != 'undefined') {
+   canvas = G_vmlCanvasManager.initElement(canvas);
+}  
+
+var ctx = $("#myChart")[0].getContext("2d");
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -35,5 +39,5 @@ var myChart = new Chart(ctx, {
             }]
         }
     }
-});
+}); 
 </script>

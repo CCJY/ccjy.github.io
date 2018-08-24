@@ -47,35 +47,40 @@ var store = [{
         "title": "A",
         "excerpt":"","categories": [],
         "tags": [],
-        "url": "https://ccjy.github.io/2018/08/10/a.html",
+        "url": "https://ccjy.github.io/a/",
         "teaser":null},{
         "title": "B",
         "excerpt":"","categories": [],
         "tags": [],
-        "url": "https://ccjy.github.io/2018/08/10/b.html",
+        "url": "https://ccjy.github.io/b/",
         "teaser":null},{
         "title": "Bd",
         "excerpt":"","categories": [],
         "tags": [],
-        "url": "https://ccjy.github.io/2018/08/10/bd.html",
+        "url": "https://ccjy.github.io/bd/",
         "teaser":null},{
         "title": "C",
         "excerpt":"","categories": [],
         "tags": [],
-        "url": "https://ccjy.github.io/2018/08/10/c.html",
+        "url": "https://ccjy.github.io/c/",
         "teaser":null},{
         "title": "Hello",
         "excerpt":"","categories": ["First_Cat"],
         "tags": ["First"],
-        "url": "https://ccjy.github.io/first_cat/2018/08/10/hello.html",
+        "url": "https://ccjy.github.io/first_cat/hello/",
         "teaser":null},{
         "title": "QQ",
         "excerpt":"","categories": [],
         "tags": [],
-        "url": "https://ccjy.github.io/2018/08/10/qq.html",
+        "url": "https://ccjy.github.io/qq/",
         "teaser":null},{
         "title": "Second",
         "excerpt":"","categories": [],
         "tags": ["first"],
-        "url": "https://ccjy.github.io/2018/08/10/second.html",
+        "url": "https://ccjy.github.io/second/",
+        "teaser":null},{
+        "title": "AAA",
+        "excerpt":"FF ","categories": [],
+        "tags": [],
+        "url": "https://ccjy.github.io/aaa/",
         "teaser":null}]

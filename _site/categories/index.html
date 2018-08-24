@@ -235,7 +235,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/first_cat/2018/08/10/hello.html" rel="permalink">Hello
+        <a href="/first_cat/hello/" rel="permalink">Hello
 </a>
       
     </h2>
@@ -251,7 +251,7 @@
 
     
         <!-- post.html -->
-    <a href="/first_cat/2018/08/10/hello.htmlindex.html#disqus_thread" data-disqus-identifier="/first_cat/2018/08/10/hello">0 Comments</a>
+    <a href="/first_cat/hello/#disqus_thread" data-disqus-identifier="/first_cat/hello">0 Comments</a>
     
 
    
@@ -259,6 +259,7 @@
 </p>
   </article>
 </div>
+
           
         </div>
         <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
@@ -313,7 +314,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
    <script>
-var ctx = document.getElementById("myChart").getContext('2d');
+   if (typeof G_vmlCanvasManager != 'undefined') {
+   canvas = G_vmlCanvasManager.initElement(canvas);
+}  
+
+var ctx = $("#myChart")[0].getContext("2d");
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -349,8 +354,9 @@ var myChart = new Chart(ctx, {
             }]
         }
     }
-});
+}); 
 </script>
+
 
 
 
