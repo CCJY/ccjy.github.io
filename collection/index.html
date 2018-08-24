@@ -360,6 +360,7 @@
   </article>
 </div>
 
+
     
 
   
@@ -391,6 +392,7 @@ Khanacademy algebra_ll_series
 </p>
   </article>
 </div>
+
 
     
 
@@ -424,6 +426,7 @@ Khan_academy Geometric sequences
   </article>
 </div>
 
+
     
 
   
@@ -455,6 +458,7 @@ Khan_academy Geometric sequences
   </article>
 </div>
 
+
     
 
   
@@ -484,6 +488,7 @@ Khan_academy Geometric sequences
 </p>
   </article>
 </div>
+
 
     
 
@@ -515,6 +520,7 @@ Khan_academy Geometric sequences
 </p>
   </article>
 </div>
+
 
     
 
@@ -565,6 +571,7 @@ Khan_academy Geometric sequences
   </article>
 </div>
 
+
     
 
   
@@ -613,6 +620,7 @@ Khan_academy Geometric sequences
 </p>
   </article>
 </div>
+
 
     
 
@@ -663,6 +671,7 @@ Khan_academy Geometric sequences
   </article>
 </div>
 
+
     
 
   
@@ -688,6 +697,10 @@ Khan_academy Geometric sequences
 
 
   
+
+  
+
+    
 
   
 
@@ -766,7 +779,11 @@ Khan_academy Geometric sequences
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
    <script>
-var ctx = document.getElementById("myChart").getContext('2d');
+   if (typeof G_vmlCanvasManager != 'undefined') {
+   canvas = G_vmlCanvasManager.initElement(canvas);
+}  
+
+var ctx = $("#myChart")[0].getContext("2d");
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -802,8 +819,9 @@ var myChart = new Chart(ctx, {
             }]
         }
     }
-});
+}); 
 </script>
+
 
 
 

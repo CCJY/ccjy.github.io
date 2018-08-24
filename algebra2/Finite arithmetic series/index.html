@@ -29,7 +29,7 @@
 
 
 
-  <meta property="article:published_time" content="2018-08-21T23:50:03-04:00">
+  <meta property="article:published_time" content="2018-08-24T01:10:28-04:00">
 
 
 
@@ -308,7 +308,7 @@
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Finite arithmetic series">
     <meta itemprop="description" content="reference :Khanacademy algebra_ll_series">
-    <meta itemprop="datePublished" content="August 21, 2018">
+    <meta itemprop="datePublished" content="August 24, 2018">
     
 
     <div class="page__inner-wrap">
@@ -471,7 +471,7 @@ s_{650} &= \frac{ 4+7143 }{2} * 650 = 2,322,775 \\
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-08-21T23:50:03-04:00">August 21, 2018</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-08-24T01:10:28-04:00">August 24, 2018</time></p>
         
       </footer>
 
@@ -531,7 +531,11 @@ s_{650} &= \frac{ 4+7143 }{2} * 650 = 2,322,775 \\
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
    <script>
-var ctx = document.getElementById("myChart").getContext('2d');
+   if (typeof G_vmlCanvasManager != 'undefined') {
+   canvas = G_vmlCanvasManager.initElement(canvas);
+}  
+
+var ctx = $("#myChart")[0].getContext("2d");
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -567,8 +571,9 @@ var myChart = new Chart(ctx, {
             }]
         }
     }
-});
+}); 
 </script>
+
 
 
 
